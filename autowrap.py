@@ -80,6 +80,7 @@ class AutoWrapListener(sublime_plugin.EventListener):
         if not view.settings().get('auto_wrap', False):
             return
 
+        # print( "Here: " + str( view.settings().get('auto_wrap', False) ) )
         if not self.check_selection(view):
             return
 
