@@ -1,4 +1,4 @@
 {
-    // Automatic hard wrap beyond wrap width.  It could be useful for text documents.
+    // Automatic hard wrap beyond wrap width. It could be useful for text documents.
     "auto_wrap": false,
 }
